@@ -108,7 +108,7 @@ body {
     display: none;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 600px) {
     .btn-start{
         top: calc(43%);
         left: calc(50% - 200px);
