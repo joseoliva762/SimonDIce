@@ -1,11 +1,30 @@
 body {
     margin: 0;
     background: #dedede;
-    display: flex;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.header{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+    font-size: 52px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
 .gameboard {
     height: 100vh;
     width: 100vh;
@@ -70,8 +89,19 @@ body {
     font-size: 2.5rem;
     border-radius: 10px;
     position: absolute;
-    top: calc(50% - 50px);
+    top: calc(50% - 25px);
     left: calc(50% - 200px);
+}
+
+.show__level{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#level{
+    font-size: 24px;
 }
 
 .hide {
